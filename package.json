@@ -1,0 +1,15 @@
+{
+  "name": "mbit-ble-web-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/text-encoding": "0.0.30",
+    "@types/web-bluetooth": "0.0.2"
+  }
+}
