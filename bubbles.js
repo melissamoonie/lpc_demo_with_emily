@@ -106,7 +106,7 @@ var counter = 0;
 
 
 function preload() {
-    img1= loadImage ("../img/em1.png");
+    img1= loadImage ("../img/bub.png");
     img2= loadImage ("../img/bubble.png");
     img3= loadImage ("../img/bubble2.png");
     buttons = loadImage ("../img/buttons.png");
@@ -118,7 +118,8 @@ function setup() {
      tears2 = Array();
     var canvas = createCanvas(sceneWidth, sceneHeight);
     canvas.parent('sketch-holder');
-    backgroundColor = color(255, 255, 255);
+    backgroundColor = color(246,137, 115);
+      canvas.position(300, 50);
 
   //         for (var i = 0; i < 10; i++) {
   //   bounces [i] = new bounce();
